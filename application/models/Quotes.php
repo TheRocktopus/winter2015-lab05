@@ -15,7 +15,7 @@ class Quotes extends MY_Model {
     
     // retrieve the most recently added quote
     function last() {
-	$key = $this->highest();
-	return $this->get($key);
+		$key = $this->highest();
+		return $this->get($key);
     }
 }
